@@ -11,7 +11,7 @@ const products = ({data}) => {
   return (
     <div>
       <Layout>
-          <h1>this is our product page</h1>
+          <h1>Products</h1>
         <section className={styles.page}>
           {products.map((product, index) => {
             return <article key={product.id}>

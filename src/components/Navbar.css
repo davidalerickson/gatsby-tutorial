@@ -1,0 +1,29 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    width: 60%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    z-index: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .nav-center {
+    width: 60vw;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-header a{
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: bold;
+    
+  }

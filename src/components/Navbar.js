@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import './Navbar.css'
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <ul className="nave-header">
+        <ul className="nav-header">
           <li>
             <Link to="/">Home</Link>
           </li>
